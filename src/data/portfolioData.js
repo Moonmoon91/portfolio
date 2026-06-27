@@ -30,6 +30,7 @@ export const projects = [
   {
     title: "RTWTIRS",
     category: "Final Year Project",
+    image: "/images/rtwtirs.png",
     type: "Laptop Mockup",
     desc: "A real-time weapon tracking and incident reporting system with live monitoring, weapon scan flow, role-based access, Firebase integration, Google Maps visualization, alerts, and incident management.",
     tech: ["Laravel", "PHP", "Firebase", "Google Maps API", "ESP32"],
@@ -38,14 +39,16 @@ export const projects = [
   {
     title: "AI Dog Breed Classification",
     category: "Artificial Intelligence",
+    image: "/images/ai-dog.png",
     type: "AI Model Showcase",
-    desc: "Developed an AI image classification model to identify dog breeds using deep learning architectures including ResNet50, DenseNet121, MobileNetV2, and Vision Transformer.",
+    desc: "Developed an AI image classification model to identify dog breeds using ResNet50, DenseNet121, MobileNetV2, and Vision Transformer.",
     tech: ["Python", "TensorFlow", "Keras", "Computer Vision"],
     impact: "Model comparison + image classification",
   },
   {
     title: "Restaurant Ordering System",
     category: "Mobile Application",
+    image: "/images/restaurant.png",
     type: "Phone Mockup",
     desc: "A Flutter mobile application for menu browsing, order placement, and order management using local database storage.",
     tech: ["Flutter", "Dart", "SQLite"],
@@ -54,6 +57,7 @@ export const projects = [
   {
     title: "FurLink",
     category: "Web Application",
+    image: "/images/furlink.png",
     type: "Web Platform",
     desc: "A pet adoption, missing pet reporting, and pet service booking system designed to help users find missing pets, manage adoption, and promote grooming or hotel service booking.",
     tech: ["Java EE", "JSP", "Servlet", "MySQL"],

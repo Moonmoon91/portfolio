@@ -45,9 +45,11 @@ function Hero() {
           <div className="absolute -inset-1 rounded-[2rem] bg-gradient-to-r from-sky-400 via-purple-500 to-cyan-400 blur opacity-50"></div>
 
           <div className="relative bg-slate-900/90 border border-white/10 rounded-[2rem] p-8 pulse-glow">
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-sky-400 to-purple-500 mx-auto mb-6 flex items-center justify-center text-5xl font-black">
-              NM
-            </div>
+         <img
+  src="/images/profile.jpg"
+  alt="Nur Munirah"
+  className="w-36 h-36 rounded-full object-cover mx-auto mb-6 border-4 border-sky-400/50 shadow-2xl"
+/>
 
             <p className="text-sky-400 font-bold mb-2">PROFILE SNAPSHOT</p>
             <h2 className="text-3xl font-black mb-6">Internship Ready Candidate</h2>
