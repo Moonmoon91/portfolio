@@ -52,7 +52,7 @@ function Hero() {
               className="w-36 h-36 rounded-full object-cover mx-auto mb-6 border-4 border-sky-400/50 shadow-2xl"
             />
 
-            <p className="text-sky-400 font-bold mb-2">PROFILE SNAPSHOT</p>
+            <p className="text-sky-400 font-bold mb-2">PROFILE</p>
             <h2 className="text-3xl font-black mb-6">Internship Ready Candidate</h2>
 
             <div className="space-y-4">
