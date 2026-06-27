@@ -199,10 +199,11 @@ function App() {
           </div>
 
           <div className="bg-slate-900 border border-white/10 rounded-3xl p-8 space-y-4">
-            <Contact label="Email" value="your-email@example.com" />
-            <Contact label="LinkedIn" value="linkedin.com/in/your-linkedin" />
-            <Contact label="GitHub" value="github.com/yourgithub" />
+            <Contact label="Email" value="akumunirah05@gmail.com" />
+            <Contact label="LinkedIn" value="https://www.linkedin.com/in/munirah-munir" />
+            <Contact label="GitHub" value="https://github.com/Moonmoon91" />
             <Contact label="Location" value="Selangor, Malaysia" />
+            <Contact label="Phone Number" value="+6017-2248075" />
 
             <a href="/resume.pdf" className="inline-block mt-4 bg-sky-400 text-slate-950 px-6 py-4 rounded-2xl font-bold hover:bg-cyan-300 transition">
               Download Resume
