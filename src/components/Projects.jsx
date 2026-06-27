@@ -51,9 +51,7 @@ function Projects() {
           ))}
         </div>
 
-        <p className="text-slate-500 mt-6 text-sm">
-          Note: Add project screenshots inside <b>public/images</b> using the same file names.
-        </p>
+       
       </div>
     </section>
   );
