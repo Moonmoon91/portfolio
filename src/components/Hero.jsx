@@ -25,11 +25,17 @@ function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-4 mb-10">
-            <a href="#projects" className="bg-sky-400 text-slate-950 px-7 py-4 rounded-2xl font-bold hover:bg-cyan-300 transition">
+            <a
+              href="#projects"
+              className="bg-sky-400 text-slate-950 px-7 py-4 rounded-2xl font-bold hover:bg-cyan-300 transition"
+            >
               View Projects
             </a>
 
-            <a href="/resume.pdf" className="border border-white/20 px-7 py-4 rounded-2xl font-bold hover:bg-white/10 transition">
+            <a
+              href="/resume.pdf"
+              className="border border-white/20 px-7 py-4 rounded-2xl font-bold hover:bg-white/10 transition"
+            >
               Download Resume
             </a>
           </div>
@@ -45,14 +51,16 @@ function Hero() {
           <div className="absolute -inset-1 rounded-[2rem] bg-gradient-to-r from-sky-400 via-purple-500 to-cyan-400 blur opacity-50"></div>
 
           <div className="relative bg-slate-900/90 border border-white/10 rounded-[2rem] p-8 pulse-glow">
-         <img
-  src="/images/profile.jpg"
-  alt="Nur Munirah"
-  className="w-36 h-36 rounded-full object-cover mx-auto mb-6 border-4 border-sky-400/50 shadow-2xl"
-/>
+            <img
+              src="/profile.jpg"
+              alt="Nur Munirah"
+              className="w-36 h-36 rounded-full object-cover mx-auto mb-6 border-4 border-sky-400/50 shadow-2xl"
+            />
 
             <p className="text-sky-400 font-bold mb-2">PROFILE SNAPSHOT</p>
-            <h2 className="text-3xl font-black mb-6">Internship Ready Candidate</h2>
+            <h2 className="text-3xl font-black mb-6">
+              Internship Ready Candidate
+            </h2>
 
             <div className="space-y-4">
               <Info label="Name" value={profile.name} />
