@@ -2,11 +2,11 @@ import { achievements } from "../data/portfolioData";
 
 function Achievements() {
   return (
-    <section className="px-6 py-24">
+    <section id="achievements" className="px-6 py-24">
       <div className="max-w-7xl mx-auto">
         <p className="text-sky-400 font-bold mb-2">ACHIEVEMENTS</p>
         <h2 className="text-4xl md:text-5xl font-black mb-10">
-          Highlights That Recruiters Should Notice
+          Certificates, Awards & Volunteering
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6">

@@ -19,30 +19,25 @@ function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-slate-300 leading-relaxed mb-8 max-w-2xl">
-            Software Engineering student passionate about building web systems,
-            mobile applications, real-time systems, AI solutions, databases, and
-            software testing workflows.
+            Motivated Software Engineering student with hands-on experience in
+            software development, web application design, database management,
+            system analysis, UI/UX, software testing, and real-time system
+            development.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-10">
-            <a
-              href="#projects"
-              className="bg-sky-400 text-slate-950 px-7 py-4 rounded-2xl font-bold hover:bg-cyan-300 transition"
-            >
+            <a href="#projects" className="bg-sky-400 text-slate-950 px-7 py-4 rounded-2xl font-bold hover:bg-cyan-300 transition">
               View Projects
             </a>
 
-            <a
-              href="/resume.pdf"
-              className="border border-white/20 px-7 py-4 rounded-2xl font-bold hover:bg-white/10 transition"
-            >
+            <a href="/resume.pdf" className="border border-white/20 px-7 py-4 rounded-2xl font-bold hover:bg-white/10 transition">
               Download Resume
             </a>
           </div>
 
           <div className="grid grid-cols-3 gap-4 max-w-xl">
             <Stat num="4+" label="Major Projects" />
-            <Stat num="12+" label="Tech Skills" />
+            <Stat num="12+" label="Technical Skills" />
             <Stat num="6 mo" label="Internship" />
           </div>
         </div>
@@ -58,9 +53,7 @@ function Hero() {
             />
 
             <p className="text-sky-400 font-bold mb-2">PROFILE SNAPSHOT</p>
-            <h2 className="text-3xl font-black mb-6">
-              Internship Ready Candidate
-            </h2>
+            <h2 className="text-3xl font-black mb-6">Internship Ready Candidate</h2>
 
             <div className="space-y-4">
               <Info label="Name" value={profile.name} />

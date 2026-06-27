@@ -16,7 +16,7 @@ function Contact() {
           </p>
 
           <div className="bg-slate-900 border border-white/10 rounded-3xl p-6">
-            <p className="text-sky-400 font-bold mb-3">Google Maps</p>
+            <p className="text-sky-400 font-bold mb-3">Location</p>
             <div className="h-56 rounded-2xl bg-gradient-to-br from-slate-800 to-slate-950 border border-white/10 flex items-center justify-center">
               <p className="text-slate-400">Selangor, Malaysia</p>
             </div>
@@ -25,6 +25,7 @@ function Contact() {
 
         <div className="bg-slate-900 border border-white/10 rounded-3xl p-8 space-y-4">
           <ContactRow label="Email" value={profile.email} />
+          <ContactRow label="Student Email" value={profile.studentEmail} />
           <ContactRow label="LinkedIn" value={profile.linkedin} />
           <ContactRow label="GitHub" value={profile.github} />
           <ContactRow label="Location" value={profile.location} />

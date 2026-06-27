@@ -3,7 +3,8 @@ export const profile = {
   shortName: "Nur Munirah",
   role: "Software Engineering Student",
   email: "akumunirah05@gmail.com",
-  phone: "+6017-2248075",
+  studentEmail: "munirah.ali@s.unikl.edu.my",
+  phone: "+6017-224 8075",
   linkedin: "https://www.linkedin.com/in/munirah-munir",
   github: "https://github.com/Moonmoon91",
   location: "Selangor, Malaysia",
@@ -12,80 +13,109 @@ export const profile = {
 };
 
 export const skills = [
+  { name: "PHP", level: 88 },
   { name: "Laravel", level: 85 },
-  { name: "PHP", level: 85 },
-  { name: "React", level: 75 },
+  { name: "Java", level: 82 },
   { name: "JavaScript", level: 78 },
-  { name: "Java", level: 80 },
-  { name: "Flutter", level: 75 },
+  { name: "HTML / CSS", level: 85 },
+  { name: "Flutter / Dart", level: 76 },
   { name: "MySQL", level: 85 },
-  { name: "Firebase", level: 82 },
-  { name: "Python", level: 70 },
-  { name: "TensorFlow", level: 68 },
-  { name: "Software Testing", level: 80 },
-  { name: "UI/UX", level: 75 },
+  { name: "Firebase Realtime Database", level: 82 },
+  { name: "Python", level: 72 },
+  { name: "ASP.NET / .NET", level: 65 },
+  { name: "UI/UX Design using Figma", level: 75 },
+  { name: "Software Testing / UAT", level: 82 },
 ];
 
 export const projects = [
   {
     title: "RTWTIRS",
-    category: "Final Year Project",
+    category: "Final Year Degree Project",
     image: "/rtwtirs.png",
     type: "Laptop Mockup",
-    desc: "A real-time weapon tracking and incident reporting system with live monitoring, weapon scan flow, role-based access, Firebase integration, Google Maps visualization, alerts, and incident management.",
+    desc: "Real-Time Weapon Tracking and Incidents Reporting System for Armed Forces. The system monitors weapon location, detects gunshot alerts, supports barcode-based start/end shift, reduces manual incident reporting, and uses role-based access.",
     tech: ["Laravel", "PHP", "Firebase", "Google Maps API", "ESP32"],
-    impact: "Real-time tracking + incident reporting",
-  },
-  {
-    title: "AI Dog Breed Classification",
-    category: "Artificial Intelligence",
-    image: "/ai-dog.png",
-    type: "AI Model Showcase",
-    desc: "Developed an AI image classification model to identify dog breeds using ResNet50, DenseNet121, MobileNetV2, and Vision Transformer.",
-    tech: ["Python", "TensorFlow", "Keras", "Computer Vision"],
-    impact: "Model comparison + image classification",
-  },
-  {
-    title: "Restaurant Ordering System",
-    category: "Mobile Application",
-    image: "/restaurant.png",
-    type: "Phone Mockup",
-    desc: "A Flutter mobile application for menu browsing, order placement, and order management using local database storage.",
-    tech: ["Flutter", "Dart", "SQLite"],
-    impact: "Mobile ordering workflow",
+    impact: "Real-time monitoring + incident reporting",
   },
   {
     title: "FurLink",
     category: "Web Application",
     image: "/furlink.png",
     type: "Web Platform",
-    desc: "A pet adoption, missing pet reporting, and pet service booking system designed to help users find missing pets, manage adoption, and promote grooming or hotel service booking.",
-    tech: ["Java EE", "JSP", "Servlet", "MySQL"],
+    desc: "A pet adoption, missing pet reporting, and pet service booking system. Built using NetBeans Enterprise Application, Java, and JavaDB to help users find missing pets, support adoption, and promote grooming or pet hotel services.",
+    tech: ["Java EE", "JSP", "Servlet", "JavaDB"],
     impact: "Community problem-solving platform",
+  },
+  {
+    title: "Kolej UNITI Attendance System by RFID",
+    category: "Diploma Final Year Project",
+    image: "/rfid.png",
+    type: "Hardware + Software",
+    desc: "An RFID-based student attendance system using Arduino. The system records student attendance by scanning student cards and stores attendance records digitally instead of using manual attendance paper.",
+    tech: ["Arduino", "RFID", "Excel", "Hardware"],
+    impact: "Reduced manual attendance process",
+  },
+  {
+    title: "AI Dog Breed Classification",
+    category: "Artificial Intelligence",
+    image: "/ai-dog.png",
+    type: "AI Model Showcase",
+    desc: "An AI image classification project for dog breed recognition using deep learning models such as ResNet50, DenseNet121, MobileNetV2, and Vision Transformer.",
+    tech: ["Python", "TensorFlow", "Keras", "Computer Vision"],
+    impact: "Deep learning model comparison",
   },
 ];
 
-export const timeline = [
+export const education = [
   {
-    year: "2026",
-    title: "Software Engineering Internship Candidate",
-    desc: "Seeking a 6-month internship in Software Engineering, IT, QA, Software Testing, Web Development, or related fields.",
+    year: "March 2024 - Present",
+    title: "Bachelor of Information Technology (Hons) in Software Engineering",
+    place: "Universiti Kuala Lumpur (UniKL MIIT)",
   },
   {
-    year: "2026",
-    title: "RTWTIRS User Acceptance Testing",
-    desc: "Involved in user testing, feedback collection, and system improvement for a real-time tracking and incident reporting system.",
+    year: "July 2020 - October 2023",
+    title: "Diploma in Information Technology (System Support)",
+    place: "Kolej Uniti Port Dickson",
   },
+];
+
+export const experience = [
   {
-    year: "2025 - 2026",
-    title: "Bachelor of IT (Hons) Software Engineering",
-    desc: "Studying software engineering concepts, system development, database, testing, web development, mobile application development, and AI.",
+    year: "January 2023 - May 2023",
+    title: "Software Support Internship",
+    company: "Securiforce Sdn. Bhd.",
+    points: [
+      "Used PHP and MySQL for programming and database-related tasks.",
+      "Planned improvements for system software.",
+      "Used Microsoft Excel to prepare documents before converting data into database format.",
+      "Trained ATM operation customers to use mobile applications after system development.",
+      "Gained understanding of MVC design pattern and phpMyAdmin.",
+    ],
   },
 ];
 
 export const achievements = [
-  "Built a real-time system using Laravel, Firebase, Google Maps API, and ESP32.",
-  "Developed AI image classification project using multiple deep learning models.",
-  "Created mobile application using Flutter and SQLite.",
-  "Experienced in UAT, testing flow, system improvement, and project presentation.",
+  "Dean List Award 2024 at UniKL.",
+  "Linux Certification Program under Kolej UNITI.",
+  "Attended MikroTik Workshop: A Router For Today & Tomorrow.",
+  "Certificate of Cloud Security: Fortifying the Digital Frontier under UniKL.",
+  "Microsoft Security, Compliance and Identity Fundamentals certificate under UniKL.",
+  "Google Project Management Certificate under Coursera.",
+  "Secretary for Love Our River program at Sungai Semungkis under UniKL.",
+  "Volunteered in Gotong-Royong Masjid community program under UNITI College.",
 ];
+
+export const professionalSkills = [
+  "Project Management",
+  "Problem Solving",
+  "Analytical Thinking",
+  "Team Collaboration",
+  "Communication Skills",
+  "Software Documentation",
+  "Requirements Analysis",
+  "User Acceptance Testing",
+  "Time Management",
+  "Adaptability",
+];
+
+export const languages = ["Malay — Native", "English — Secondary"];

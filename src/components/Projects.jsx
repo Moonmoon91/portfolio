@@ -5,9 +5,7 @@ function Projects() {
     <section id="projects" className="px-6 py-24">
       <div className="max-w-7xl mx-auto">
         <p className="text-sky-400 font-bold mb-2">SELECTED WORK</p>
-        <h2 className="text-4xl md:text-5xl font-black mb-10">
-          Project Gallery
-        </h2>
+        <h2 className="text-4xl md:text-5xl font-black mb-10">Project Gallery</h2>
 
         <div className="grid lg:grid-cols-2 gap-8">
           {projects.map((project) => (
@@ -20,6 +18,9 @@ function Projects() {
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                  onError={(e) => {
+                    e.currentTarget.src = "/images/placeholder.png";
+                  }}
                 />
               </div>
 
@@ -49,6 +50,10 @@ function Projects() {
             </div>
           ))}
         </div>
+
+        <p className="text-slate-500 mt-6 text-sm">
+          Note: Add project screenshots inside <b>public/images</b> using the same file names.
+        </p>
       </div>
     </section>
   );
