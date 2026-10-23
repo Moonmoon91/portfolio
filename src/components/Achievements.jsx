@@ -2,26 +2,13 @@ import { achievements } from "../data/portfolioData";
 
 function Achievements() {
   return (
-    <section id="achievements" className="px-6 py-24">
+    <section id="achievements" className="section-wrap px-6 py-24">
       <div className="max-w-7xl mx-auto">
-        <p className="text-sky-400 font-bold mb-2">ACHIEVEMENTS</p>
-        <h2 className="text-4xl md:text-5xl font-black mb-10">
-          Certificates, Awards & Volunteering
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-6">
-          {achievements.map((achievement, index) => (
-            <div key={achievement} className="bg-slate-900 border border-white/10 rounded-3xl p-7">
-              <p className="text-sky-400 font-black text-3xl mb-4">
-                0{index + 1}
-              </p>
-              <p className="text-slate-300 leading-relaxed">{achievement}</p>
-            </div>
-          ))}
-        </div>
+        <p className="section-kicker">BEYOND THE CODE</p>
+        <h2 className="section-title">Awards, learning & giving back<span className="text-sky-400">.</span></h2>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">{achievements.map(item=><article key={item.title} className="panel p-6"><p className="text-sky-400 text-xs font-extrabold uppercase tracking-widest mb-4">{item.type}</p><h3 className="text-lg font-bold mb-2 leading-snug">{item.title}</h3><p className="text-slate-400 text-sm">{item.detail}</p></article>)}</div>
       </div>
     </section>
   );
 }
-
 export default Achievements;
